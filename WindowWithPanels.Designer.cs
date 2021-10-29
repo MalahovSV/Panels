@@ -1,6 +1,6 @@
 ﻿namespace WorkWithPanels
 {
-    partial class Form1
+    partial class WindowWithPanels
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -50,7 +50,6 @@
             this.Controls.Add(this.SetPanels);
             this.Name = "Form1";
             this.Text = "Работаю с панельками";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

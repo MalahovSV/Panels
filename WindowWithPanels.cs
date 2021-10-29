@@ -10,15 +10,15 @@ using System.Windows.Forms;
 
 namespace WorkWithPanels
 {
-    public partial class Form1 : Form
+    public partial class WindowWithPanels : Form
     {
-        public Form1()
+        public WindowWithPanels()
         {
             InitializeComponent();
-            
+            loadData();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void loadData()
         {
             //Просто череда вызова метода createPanel() который возвращает объект панель и помещает его в контейнер
             SetPanels.Controls.Add(createPanel("Панель 1", "Panel1"));
@@ -28,7 +28,6 @@ namespace WorkWithPanels
             SetPanels.Controls.Add(createPanel("Панель 5", "Panel5"));
             SetPanels.Controls.Add(createPanel("Панель 6", "Panel6"));
             SetPanels.Controls.Add(createPanel("Панель 7", "Panel7"));
-
         }
 
         /// <summary>
@@ -50,7 +49,11 @@ namespace WorkWithPanels
             installEventsPanel(newPanel);
             return newPanel;
         }
-
+        /// <summary>
+        /// Создаём Label который будет находится в Panel
+        /// </summary>
+        /// <param name="panel">Родительский Panel</param>
+        /// <returns>Созданный текст который будет располагаться внутри Panel</returns>
         private Label createHeaderPanel(Panel panel)
         {
             var label = new Label()
@@ -64,7 +67,10 @@ namespace WorkWithPanels
             installEventsLabel(label, panel);
             return label;
         }
-
+        /// <summary>
+        /// Присваиваем события Panel
+        /// </summary>
+        /// <param name="panel">Объект присвоения</param>
         private void installEventsPanel(Panel panel)
         {
             panel.Click += (s, e) => { MessageBox.Show(panel.Name); };
