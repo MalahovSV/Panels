@@ -9,3 +9,4 @@ C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.csproj.CoreCompileInputs.cache
 C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.exe
 C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.pdb
 C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.WindowWithPanels.resources
+C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.AddRecord.resources
