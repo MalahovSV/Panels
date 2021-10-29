@@ -32,18 +32,6 @@ namespace WorkWithPanels
                     SetPanels.Controls.Add(CreatePanel(reader.GetString(1), (double)reader.GetDecimal(2), image));
                 }
             }
-
-
-
-            //Просто череда вызова метода createPanel() который возвращает объект панель и помещает его в контейнер
-            //SetPanels.Controls.Add(CreatePanel("Бэйби Йода", "Panel1", @"C:\Users\Sergey\Desktop\Images\1.jpg", 1200.32));
-            //SetPanels.Controls.Add(CreatePanel("Шварцнигер", "Panel2", @"C:\Users\Sergey\Desktop\Images\2.jpg", 1999.99));
-            //SetPanels.Controls.Add(CreatePanel("Пепсикольный", "Panel3", @"C:\Users\Sergey\Desktop\Images\3.jpg", 2100.00));
-            //SetPanels.Controls.Add(CreatePanel("Ещё один бейби Йода", "Panel4", @"C:\Users\Sergey\Desktop\Images\4.jpg", 2000.00));
-            //SetPanels.Controls.Add(CreatePanel("Стулкер", "Panel5", @"C:\Users\Sergey\Desktop\Images\5.jpg", 564.23));
-            //SetPanels.Controls.Add(CreatePanel("АКУВА", "Panel6", @"C:\Users\Sergey\Desktop\Images\6.jpg", 330.20));
-            //SetPanels.Controls.Add(CreatePanel("Лорд Вейпер", "Panel7", @"C:\Users\Sergey\Desktop\Images\7.jpg", 4999.99));
-            //SetPanels.Controls.Add(CreatePanel("Интеллектуал", "Panel8", @"C:\Users\Sergey\Desktop\Images\8.jpg", 1500.00));
         }
 
         /// <summary>
@@ -153,3 +141,17 @@ namespace WorkWithPanels
         }
     }
 }
+
+
+#region
+
+//create database Shop
+//go
+//use Shop
+//go
+//create table Items (ID_Item int identity(1,1) primary key,
+//Name_Item varchar(30),
+//Price decimal(6, 2),
+//ImageFile varbinary(max))
+
+#endregion
