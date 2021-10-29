@@ -1,0 +1,11 @@
+C:\ISP\WorkWithPanels\bin\Debug\WorkWithPanels.exe.config
+C:\ISP\WorkWithPanels\bin\Debug\WorkWithPanels.exe
+C:\ISP\WorkWithPanels\bin\Debug\WorkWithPanels.pdb
+C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.csproj.AssemblyReference.cache
+C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.csproj.SuggestedBindingRedirects.cache
+C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.Form1.resources
+C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.Properties.Resources.resources
+C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.csproj.GenerateResource.cache
+C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.csproj.CoreCompileInputs.cache
+C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.exe
+C:\ISP\WorkWithPanels\obj\Debug\WorkWithPanels.pdb
